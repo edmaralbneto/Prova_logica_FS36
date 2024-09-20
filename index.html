@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ppt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Validação de Filmes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="container">
+
+        
+        <!-- <img class="image" src="image/Fundo_Login.jpg" alt="" height="100vh"> -->
+
+
+
+        <div id="container_login" class="login-container">
+
+            <h2>Login</h2>
+            <form id="loginForm" onsubmit="return validateLogin()">
+                <div class="input-group">
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+            <p id="error-message" class="error"></p>
+        </div>
+
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>

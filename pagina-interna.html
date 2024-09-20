@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Filmes</title>
+    <link rel="stylesheet" href="css/Pagina_interna.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Categorias</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <input type="text" id="filter" placeholder="Filtrar por nome do filme">
+        <select id="sort">
+            <option value="default">Ordenar por padrão</option>
+            <option value="name">Ordenar por nome</option>
+        </select>
+
+        <div id="movies-list"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Lista de Filmes</p>
+    </footer>
+
+    <script src="JavaScript/pagina_interna.js"></script>
+
+</body>
+</html>
